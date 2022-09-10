@@ -7,3 +7,4 @@ Task 2 - script that generates the assembly code of a C code and save it in an o
 Task 3 - script that compiles a C file and creates an executable named cisfun.
 Task 4 - program to print some words using puts function
 Task 5 - program to print some word using printf function
+Task 6 - C program that prints the size of various types on the computer it is compiled and run on.
