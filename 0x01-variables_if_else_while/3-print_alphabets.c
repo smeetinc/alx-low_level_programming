@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - lowercase and uppercase
  *
  * Return: Always 0 (Success)
  */
@@ -14,6 +14,12 @@ int main(void)
 	{
 		putchar(c);
 	}
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 	return (0);
 }
+
+
