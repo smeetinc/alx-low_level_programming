@@ -12,14 +12,17 @@ int main(void)
 
 	for (tens = 0; tens <= 9; tens++)
 	{
-		for (unit = 0; unit <= 9; unit++)
+		for (unit = 1; unit <= 9; unit++)
 		{
-			putchar(tens + '0');
-			putchar(unit + '0');
-			if (!(tens == 9 && unit == 9))
+			if (unit > tens)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(tens + '0');
+				putchar(unit + '0');
+				if (!(tens == 9 && unit == 9))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
