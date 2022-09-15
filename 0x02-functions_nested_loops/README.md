@@ -8,3 +8,4 @@ Task 6 - function that computes the absolute value of an integer.
 Task 7 - function that prints the last digit of a number.
 Task 8 - function to print every minute of the day.
 Task 9 - function that prints the 9 times table starting from 0.
+Task 10 - function to add two numbers and return the result.
