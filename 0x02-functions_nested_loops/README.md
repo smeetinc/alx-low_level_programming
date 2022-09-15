@@ -10,3 +10,4 @@ Task 8 - function to print every minute of the day.
 Task 9 - function that prints the 9 times table starting from 0.
 Task 10 - function to add two numbers and return the result.
 Task 11 - function to print real numbers from n to 98.
+Task 12 - function to print times table of any specified length not greater than 15 and not less than 0
