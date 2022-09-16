@@ -2,3 +2,5 @@
 
 
 Task 0 - returns 1 for uppercase letters
+
+Task 1 - returns 1 if input is a digit and 0 if anything else
