@@ -13,3 +13,4 @@ Task 4 - function to print numbers from 0 to 9 without 2 and 4
 
 Task 5 - function to print numbers from 0 to 14 ten times
 
+Task 6 - Make a line 
