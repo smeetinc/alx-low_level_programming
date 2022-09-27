@@ -4,3 +4,5 @@
 Task 0 - function that fills memory with a constant byte.
 
 Task 1 -  function that copies memory area.
+
+Task 2 - function that locates a character in a string.
