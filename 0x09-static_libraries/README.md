@@ -1,0 +1,3 @@
+
+# Task on static library
+
