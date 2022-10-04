@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	sum = 0;
 	for (i = 1; i < argc; i++)
 	{
-		num = num_checker(argv[i]);
+		num = is_num_checker(argv[i]);
 		if (num == -1)
 		{
 			printf("Error\n");
