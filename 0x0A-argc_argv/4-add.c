@@ -35,7 +35,7 @@ int is_num_checker(char *a)
  *   @argc: arguement count
  *   @argv: array of pointers to arguement strings
  *   Return: result
- */
+ **/
 
 int main(int argc, char *argv[])
 {
