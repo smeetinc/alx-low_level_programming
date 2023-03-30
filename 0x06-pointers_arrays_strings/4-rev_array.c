@@ -11,6 +11,7 @@ void reverse_array(int *a, int n)
 
 	i = 0;
 	j = n - 1;
+	/* logic to reverse the content */
 	while (a < b)
 	{
 		tmp = a[i];
