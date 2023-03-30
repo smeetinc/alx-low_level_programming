@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * leet - function to encode string
  * @s: function param
