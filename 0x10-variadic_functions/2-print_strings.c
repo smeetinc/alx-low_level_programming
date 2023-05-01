@@ -1,4 +1,4 @@
-nclude "variadic_functions.h"
+#include "variadic_functions.h"
 
 /**
  * print_strings - func to print strings
