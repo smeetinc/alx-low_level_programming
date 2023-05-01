@@ -80,17 +80,17 @@ int len_check(char *argv[], int n)
 
 int main(int argc, char *argv[])
 {
-	int a, b, c, d, e, f, g, h, i;
+	int num1, num2, c, d, e, f, g, h, i;
 	char *mul;
 
 	if (argc != 3)
 		printf("Error\n"), exit(98);
-	a = len_check(argv, 1), b = len_check(argv, 2);
-	check_zero(argv), c = a + b, mul = malloc(c + 1);
+	num1 = len_check(argv, 1), num2 = len_check(argv, 2);
+	check_zero(argv), c = num1 + num2, mul = malloc(c + 1);
 	if (mul == NULL)
 		printf("Error\n"), exit(98);
 	mul = array_init(mul, c);
-	i = c - 1, f = a - 1, g = b - 1, h = e = 0;
+	i = c - 1, f = num1 - 1, g = num2 - 1, h = e = 0;
 	for (; i >= 0; i--, f--)
 	{
 		if (f < 0)
@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
 					mul[i - 1] = (d / 10) + '0';
 				mul[i] = (d % 10) + '0';
 			}
-			f = a - 1, g--, e = 0, h++, i = c - (1 + h);
+			f = num1 - 1, g--, e = 0, h++, i = c - (1 + h);
 		}
 		if (g < 0)
 		{
@@ -110,7 +110,7 @@ int main(int argc, char *argv[])
 				break;
 			c--;
 			free(mul), mul = malloc(c + 1), mul = array_init(mul, c);
-			i = c - 1, f = a - 1, g = b - 1, h = e = 0;
+			i = c - 1, f = num1 - 1, g = num2 - 1, h = e = 0;
 		}
 		if (g >= 0)
 		{
@@ -121,4 +121,3 @@ int main(int argc, char *argv[])
 	printf("%s\n", mul);
 	return (0);
 }
-
