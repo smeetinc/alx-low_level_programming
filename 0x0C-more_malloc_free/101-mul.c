@@ -65,7 +65,7 @@ int len_check(char *argv[], int n)
 	for (len = 0; argv[n][len]; len++)
 		if (!isdigit(argv[n][len]))
 		{
-			printf("Error\n")
+			printf("Error\n");
 				exit(98);
 		}
 	return (len);
