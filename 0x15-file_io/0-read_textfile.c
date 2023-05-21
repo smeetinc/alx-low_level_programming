@@ -13,7 +13,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	ssize_t check_read, word_count;
 	char *buffer;
 
-	
 	if (!filename)
 		return (0);
 	file_des = open(filename, O_RDONLY);
@@ -23,7 +22,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buffer = malloc(sizeof(char) * letters);
 	if (!buffer)
 	{
-		free (buffer);
+		free(buffer);
 		return (0);
 	}
 	check_read = read(file_des, buffer, letters);
