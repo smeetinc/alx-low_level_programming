@@ -17,9 +17,9 @@ int append_text_to_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content)
 	{
-		for (numletrs = 0; text_conetnt[numletrs]; numletrs++)
+		for (numletrs = 0; text_content[numletrs]; numletrs++)
 			;
-		rwr = write(fd, text_conetnt, numletrs);
+		rwr = write(fd, text_content, numletrs);
 		if (rwr == -1)
 			return (-1);
 	}
