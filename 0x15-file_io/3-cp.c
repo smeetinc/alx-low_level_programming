@@ -4,12 +4,12 @@
 /**
  * error_check - check error on file
  * @file_src: source file
- * @file_des: file des
+ * @file_to: file des
  * @argv: arg vector
  * Return: void
  */
 
-void error_check(int file_src, int file_des, char *argv[])
+void error_check(int file_src, int file_to, char *argv[])
 {
 	if (file_src == -1)
 	{
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 	file_src = open(argv[1], O_RDONLY);
-	file_to = open(argv[2], O_CREAT | O_WRONLY \ O_TRUNC | O_APPEND, 0664);
+	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
 	error_check(file_src, file_to, argv);
 
 	numchars = 1024;
