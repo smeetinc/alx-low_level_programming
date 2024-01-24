@@ -1,1 +1,0 @@
-# Task on Hash tables
